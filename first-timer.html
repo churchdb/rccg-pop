@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register a First Timer</title>
-  <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Add this line -->
-  <link rel="stylesheet" href="form-style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChurchDB App</title>
+  <link rel="icon" href="images/SoftCode-Favicon.png" type="image/png" />
+  <link rel="stylesheet" href="dashboard.css" />
 </head>
 <body>
+  <header class="app-header">
+    <img src="images/ChurchDB-white-logo.png" alt="ChurchDB Logo" class="app-logo" />
+    <h1 class="app-title">ChurchDB</h1>
+    <hr class="decorative-line" />
+    <h2 class="app-subtitle">A smarter way to manage your church data — securely and effectively.</h2>
+  </header>
 
-   <nav class="navbar">
-  <a href="index.html" class="nav-brand">
-    <img src="images/SoftCode ChurchDB2.1.jpg" alt="ChurchDB Logo" class="nav-logo">
-    <span class="nav-title">ChurchDB</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="first-timer.html">First Timer</a></li>
-    <li><a href="member.html">Member</a></li>
-  </ul>
-</nav>
+  <section id="church-title" class="church-title-card">
+    <img src="images/New RCCG Logo.png" alt="Logo" class="welcome-logo">
+    <h2>RCCG Palace of Praise</h2>
+    <p>... celebrating The King of Glory</p>
+  </section>
+
+    <main class="dashboard">
+     <a href="index.html" class="tile tile-mission">
+      🏠<span>Home</span>
+      </a>
+
+    <a href="member.html" class="tile tile-member">
+      👥<span>Member</span>
+    </a>
+
+  </main>
+
+  <!-- Form -->
+
 
 
 
@@ -110,6 +124,14 @@
       <button type="submit" class="btn-submit">Save</button>
     </form>
   </div>
+
+   <!-- Footer -->
+
+
+<a href="https://www.soft-code.org" target="_blank" rel="noopener" class="tile-powered-1">
+  <div class="icon">⚡</div>
+  Powered by SoftCode
+</a>
 
 </body>
 </html>
